@@ -1,0 +1,37 @@
+a:hover{
+    color: currentColor;
+    text-decoration: none;
+}
+.container{
+    max-width: 1300px;
+}
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  .s-content {
+    font-size: 14px;
+    color: #555555;
+    font-family: "HKnova-light";
+    line-height: 1.9;
+}
+.section-mt{
+    margin-top: 90px;
+}
+.section-mb{
+    margin-bottom: 90px;
+}
+.truncate-3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.truncate-2 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
